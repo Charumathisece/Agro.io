@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://agro-io.onrender.com/api',
+  // baseURL: 'https://agro-io.onrender.com/api',
+   baseURL: 'https://agroioserver.vercel.app/api',
 });
 
 // Add a request interceptor to attach the token to every request
